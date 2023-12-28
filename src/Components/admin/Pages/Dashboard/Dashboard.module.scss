@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 95px;
+    margin-left: var(--sidebar-width);
+}
+.container{
+    width: var(--width-container);
+    padding: 80px 0;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3 {width: 25%;}
+
+.col-9 {width: 75%;}

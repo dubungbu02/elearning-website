@@ -1,0 +1,98 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+    min-height: 300px;
+    background-color: var(--white-color);
+    justify-content: center;
+    padding: 60px 0;
+
+}
+
+.container{
+    background-color: var(--white-color);
+    width: 1295px;
+}
+.row{
+    display: flex;
+}
+
+
+.col-4 {
+    min-height: 440px;
+    padding: 0 8px;
+    width: 33.33%;}
+
+.col-2 {
+    min-height: 440px;
+    padding: 16px 8px;
+    width: 16.66%;
+}
+.brand-dec{
+
+}
+.brand-logo{
+    width: 100px;
+
+}
+
+.logo-content{
+    font-size: 14px;
+}
+
+.brand-app{
+
+}
+.app{
+    font-size: 40px;
+    padding-top: 18px; 
+    cursor: pointer;
+    .appstore{
+        padding: 2px;
+        border-radius: 5px;
+        color: var(--white-color);
+        background-color: #228ef3;
+        margin-right: 24px;
+    }
+    .googleplay{
+        padding: 2px;
+        border-radius: 5px;
+        color: var(--white-color);
+        background-color: #228ef3;
+        margin-right: 24px;
+    }
+}
+
+.brand-social{
+
+    .social{
+        font-size: 40px;
+        padding-top: 18px;
+
+    }
+    .app-social{
+        padding-right: 20px;
+        cursor: pointer;
+
+        &:last-child{
+            color: red;
+        }
+        &:first-child{
+            color: var(--secondary-color);
+        }
+    }
+}
+.contact{
+    padding: 16px 0;
+}
+
+.contact-inf{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 20px;
+
+    .icon {
+        font-size: 24px;
+        margin-right: 12px;
+    }
+}

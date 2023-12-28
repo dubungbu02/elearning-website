@@ -1,0 +1,48 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: var(--sidebar-width);
+
+}
+.container{
+    width: 100%;
+    
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 680px;
+}
+.col-9 {width: 75%;}
+.col-3 {width: 25%;}
+
+.component-container{
+    height: 100%;
+    overflow: auto;
+}
+
+.cb_containe{
+    background-color: red;
+}
+.video-container{
+    width: 100%;
+}
+
+.cb_container{
+
+    h1{
+        font-size: 1.9rem;
+        padding-left: 16px;
+        user-select: none;
+        cursor: default;
+    }
+}
+.lesson_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,33 @@
+.wrapper{
+    width: 100%;
+    background-color: var(--white-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding:24px 12px;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #888888;
+
+    &.container img {
+        user-select: none;
+    }
+}
+
+.courseDetail{
+    width: 100%;
+
+}
+
+.courseTitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px;
+    align-items: center;
+}
+.price{
+    margin-right: 8px;
+    text-decoration: line-through;
+}

@@ -1,0 +1,250 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+    margin-left: var(--sidebar-width);
+}
+.container{
+    width: var(--width-container);
+    padding: 80px 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+  }
+  
+  .modal-content button {
+    margin-right: 10px;
+  }
+
+  .select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  .section {
+    margin-top: 20px;
+  }
+  
+  .chapter-item {
+    margin-top: 10px;
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+
+  }
+
+  .chapter-gr{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .chapter-item:hover {
+    background-color: #ebebeb;
+  }
+  
+  .chapter-item div:first-child {
+    font-weight: bold;
+  }
+  
+  .chapter-item div:first-child:hover {
+    text-decoration: underline;
+  }
+  
+  .lesson-item {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .lesson-item:hover {
+    text-decoration: none;
+  }
+  
+  .lesson-item h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .lesson-item p {
+    margin-bottom: 10px;
+
+  }
+  
+  .lesson-item iframe {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+
+  .modal-lesson {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .modal-lesson-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    min-width: 800px;
+  }
+  
+  .modal-lesson-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .modal-lesson-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-lesson-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .modal-lesson-content input,
+  .modal-lesson-content textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+  }
+
+  .text-ReactQuill{
+    min-height: 100px;
+  }
+  
+  .modal-lesson-content button {
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  .modal-lesson-content button[type="submit"] {
+    color: white;
+  }
+  
+  .modal-lesson-content button[type="button"] {
+    background-color: #f5f5f5;
+    color: #333;
+
+    &:hover{
+      background-color: #d4cccc;
+    }
+  }
+
+  .btn-gr{
+    display: flex;
+    justify-content: end;
+  }
+
+  .chapter-name{
+    display: flex;
+    align-items: center;
+    padding-right: 32px;
+    cursor: pointer;
+    text-decoration: none ;
+  }
+
+  .btn-icon:hover{
+    color: #f66962;
+  }
+
+
+  .edit-modal {
+    position: fixed;
+    min-width: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .save-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }

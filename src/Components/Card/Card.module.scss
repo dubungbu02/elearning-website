@@ -1,0 +1,108 @@
+.wrapper{
+    background-color: var(--white-color);
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.card-img{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.product-imgage{
+    position: relative;
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    .price{
+        position: absolute;
+        display: flex;
+        right: 12px;
+        bottom: 24px;
+        background-color: var(--white-color);
+        padding: 6px 15px;
+        border-radius: 10px;
+        align-items: center;
+
+        &.price h3 {
+            color: #f66962;
+            font-size: 24px;
+        }
+
+        &.price span {
+            text-decoration: line-through;
+            font-size: 14px;
+            padding-left: 8px;
+            padding-top: 4px;
+            color: #777777;
+            font-weight: 600;
+        }
+    }
+}
+
+.product-content{
+    width: 100%;
+    padding-top: 18px;
+    .title-group{
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+
+        &.title-group h2{
+            cursor: pointer;
+            font-size: 1.8rem;
+            font-weight: 500;
+            padding-right: 12px;
+            max-width: 27rem;
+        }
+
+        &.title-group .heart-icon{
+            font-size: 24px;
+            color: #f66962;
+            cursor: pointer;
+        }
+    }
+}
+
+.course-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c7c7c7;
+    padding: 12px 0;
+    margin-bottom: 20px;
+    .info-group{
+        display: flex;
+        align-items: center;
+    }
+    .course-view{
+        display: flex;
+        align-items: center;
+    }
+    .icon {
+        color: #f66962;
+        padding-right: 8px;
+    }
+}
+
+.course-rating{
+    font-size: 1.4rem;
+    color: #FFB800;
+    margin-bottom: 15px;
+
+    &.course-rating span{
+        padding-left: 8px;
+    }
+}
+
+.btn-buy{
+    min-height: 50px;
+}

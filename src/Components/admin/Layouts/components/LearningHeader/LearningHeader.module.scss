@@ -1,0 +1,54 @@
+.wrapper{
+    width: 100%;
+    background-color: #29303b;
+    position: fixed;
+    height: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    .header-logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 45px;
+        overflow: hidden;
+
+        &.header-logo a{
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        .logo{
+            width: 35px;    
+        }
+    }
+
+    .header-back {
+        width: 60px;
+        cursor: pointer;
+        height: 100%;
+    
+    
+        &:hover{
+            background-color: rgba(0,0,0,.1);
+        }
+    
+        .header-icon{
+            color: white;
+        }
+    }
+}
+
+
+
+
+
+.header-title {
+    color: var(--white-color);
+    margin-left: 12px ;
+
+}

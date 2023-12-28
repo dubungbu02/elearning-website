@@ -4,9 +4,10 @@
 :root {
     --primary-color: #E9C52F;
     --secondary-color: #0C23D8;
-    --sidebar-width: 240px;
     --background-color:#e6ebee;
     --white-color:#ffffff;
+    --text-color :#424242;
+    --width-container: 1295px;
 }
 
 *{
@@ -26,4 +27,17 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+    color: var(--text-color);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
 }

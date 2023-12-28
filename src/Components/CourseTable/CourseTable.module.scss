@@ -1,0 +1,42 @@
+/* CSS cho table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* CSS cho hàng lẻ */
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* CSS khi di chuột qua hàng */
+  tr:hover {
+    background-color: #e6e6e6;
+  }
+  
+  /* CSS cho table động */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Áp dụng hiệu ứng động */
+  table {
+    animation: fadeIn 0.5s ease-in-out;
+  }

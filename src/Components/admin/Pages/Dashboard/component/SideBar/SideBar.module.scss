@@ -1,0 +1,48 @@
+.wrapper{
+    width: 100%;
+    border: 1px solid #e9ecef;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+
+.container{
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.sideBar-item{
+    border-top: 1px solid rgb(199 199 199 / 25%);
+    position: relative;
+    :hover{
+        background-color: #fff7f6;
+    }
+}
+
+.dashboard-item{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    color: #303030;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    border: 0;
+    line-height: normal;
+    padding: 20px;
+
+    span{
+        margin-left: 12px;
+    }
+
+
+}
+.dashboard-icon{
+    margin-right: 12px;
+}
+
+.header-title{
+    color: #392c7d;
+}

@@ -1,0 +1,36 @@
+.wrapper{
+    width: 100%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.option-item{
+    width: 100%;
+    background-color: #f6f7f9;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-shadow: 8px 0 8px rgba(137,172,192,.04);
+    font-size: 1.6rem;
+    padding: 16px;
+    text-align: center;
+    transition: .2s ease;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 16px;
+}
+.active{
+    border-color: #0093fc;
+}
+.correct{
+    background-color: #f0ffed;
+    border-color: #48bd79;
+}
+.incorrect{
+    background-color: #ffeaea;
+    border-color: #cc5140;
+}
